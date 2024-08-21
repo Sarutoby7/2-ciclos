@@ -1,0 +1,29 @@
+Manual Técnico:
+
+1.	HTML (index.html):
+o	Contiene un campo de entrada numérica (<input>)
+    donde el usuario puede ingresar un número para calcular su factorial.
+o	Al hacer clic en el botón (<button>), se realiza el cálculo del factorial.
+o	El resultado del cálculo se muestra en el artículo (<article>) con el id resultado.
+
+2.	CSS (estilos.css):
+o	El cuerpo de la página tiene un diseño centrado con un fondo color amarillo claro.
+o	Se estilizan los elementos como el título, la sección principal,
+    los campos de entrada y el botón, dando una apariencia agradable.
+o	El contenedor del resultado tiene un color marrón para destacar el resultado del cálculo.
+
+3.	JavaScript (script.js):
+o	Se obtienen los elementos del DOM (botonCalcular, campoNumeroFactorial,
+    contenedorResultado) usando getElementById.
+o	Se agrega un eventListener al botón que escucha el evento click.
+o	Al hacer clic, se obtiene el valor del campo de entrada (campoNumeroFactorial.value),
+    se convierte a entero usando parseInt, y se almacena en la variable numero.
+o	Se utiliza un ciclo for para calcular el factorial del número ingresado.
+    La variable factorial se inicializa en 1 y se multiplica por cada valor desde 1, hasta numero.
+o	El resultado se muestra en el contenedor resultado usando textContent.
+
+Este ejercicio demuestra el cálculo de factoriales usando ciclos,
+resaltando cómo se pueden aplicar conceptos matemáticos en una página web interactiva.
+
+Github:
+
