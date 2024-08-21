@@ -26,4 +26,4 @@ Este ejercicio demuestra el cálculo de factoriales usando ciclos,
 resaltando cómo se pueden aplicar conceptos matemáticos en una página web interactiva.
 
 Github:
-
+https://sarutoby7.github.io/2-ciclos/
